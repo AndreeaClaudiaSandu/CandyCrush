@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Candy Crush</title>
+		<link rel="stylesheet" href="style.css"> 
+		
+	</head>
+	
+	<body>
+		<span class="score-board" style="color:black;font-family:Lucida Handwriting; font-style:italic; font-size:25px; font-weight:bold">
+			Score   
+			<span id="score"></span>
+		</span>
+		<span class="level-board" style="color:white;font-family:Lucida Handwriting; font-style:italic; font-size:20px; font-weight:bold; position: absolute; right:10px">
+			Level 
+			<span id="level"></span>
+		</span>
+		<br/><br/>
+		<span class="moves-board" style="color:white;font-family:Lucida Handwriting; font-style:italic; font-size:25px; font-weight:bold" >
+			Moves   
+			<span id="moves"></span>
+		</span>
+		<br/><br/>
+		<div class="grid" ></div>
+		<button id="next" type="button" onclick="nextLevel()" >Next level</button>
+		<button id="restart" type="button" onclick="restart()" >Restart</button>
+		<button id="restart2" type="button" onclick="restart2()" >Restart</button>
+		<span id="score-level" style="color:white;font-family:Lucida Handwriting; font-style:italic; font-size:25px; font-weight:bold">
+			Score:   
+			<span id="scoree"></span>
+		</span>
+		<img src="poze/yellow-star.png" id="star1y"></img>
+		<img src="poze/grey-star.png" id="star1g"></img>
+		<img src="poze/yellow-star.png" id="star2y"></img>
+		<img src="poze/grey-star.png" id="star2g"></img>
+		<img src="poze/yellow-star.png" id="star3y"></img>
+		<img src="poze/grey-star.png" id="star3g"></img>
+		<script src="app.js" > </script>
+	</body>
+</html>
+
